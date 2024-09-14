@@ -82,6 +82,7 @@ table {
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0;
 }
 
 .container-footer {
@@ -136,4 +137,76 @@ table {
   color: #f18517;
   transition: all 0.3s;
   text-decoration: underline;
+}
+
+.inicio {
+  background-image: linear-gradient(to bottom right, rgb(29, 49, 231), rgb(156, 165, 245));
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 4px;
+}
+
+.descricao {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.conteudo {
+  display: flex;
+  height: 200px;
+  border-left: solid 3px;
+  border-color: #3b3d3b;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 75px;
+  background-image: linear-gradient(to right, #e49a3a, #fff);
+  margin-right: 200px;
+}
+
+.conteudo-text {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+img {
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 400px;
+}
+
+.conteudo-text02 {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.imagem02 {
+  border-radius: 10px 0px 0px 10px;
+  margin: 0;
+}
+
+.formulario {
+  border: 3px double;
+  border-radius: 10px;
+  border-color: rgb(29, 49, 231);
+  height: 300px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 75px;
+  padding: 30px;
+  align-items: center;
+  background-color: #b6b6b6;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  border-style: outset;
+  border-radius: 8px;
+  border-color: rgb(29, 49, 231);
+  background-color: rgb(186, 192, 248);
 }/*# sourceMappingURL=style.css.map */

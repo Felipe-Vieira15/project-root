@@ -1,0 +1,23 @@
+.formulario{
+    border: 3px double;
+    border-radius: 10px;
+    border-color: rgb(29, 49, 231);
+    height: 300px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 75px;
+    padding: 30px;
+    align-items: center;
+    background-color: #b6b6b6;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border-style: outset;
+    border-radius: 8px;
+    border-color: rgb(29, 49, 231);
+    background-color: rgb(186, 192, 248);
+}
